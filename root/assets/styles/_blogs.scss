@@ -1,0 +1,32 @@
+.blogs {
+	.blogs-box {
+		.item {
+			p {
+				text-shadow:
+						-1px -1px 0 #5d5d5d,
+						1px -1px 0 #5d5d5d,
+						-1px 1px 0 #5d5d5d,
+						1px 1px 0 #5d5d5d;
+			}
+			.content {
+				bottom: 0px;
+				padding: 10px;
+			}
+
+			.item-images {
+				filter: opacity(0.8) drop-shadow( 0 0 black);
+				width: 100%;
+				overflow: hidden;
+
+				img {
+					transition: transform 1s ease;
+				}
+			}
+			.item-images:hover img {
+				transform: scale(1.5);
+				filter: opacity(0.5) drop-shadow( 0 0 black);
+				background: #333333;
+			}
+		}
+	}
+}
