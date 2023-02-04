@@ -1,0 +1,16 @@
+{
+  "name": "vendor",
+  "version": "1.0.0",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "css-loader": "^6.7.3",
+    "postcss-loader": "^7.0.2",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1"
+  }
+}
