@@ -4,6 +4,7 @@ $components = [
     'banner',
     'home-products',
     'banner-fb',
+    'home-instruct',
     'home-blogs',
     'footer'
 ];
