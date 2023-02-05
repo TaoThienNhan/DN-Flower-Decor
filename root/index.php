@@ -1,13 +1,7 @@
 <?php
 define('ASSETS', 'assets');
 $components = [
-    'banner',
-    'home-products',
-    'banner-fb',
-    'order-on-request',
-    'home-instruct',
-    'home-blogs',
-    'collection',
+    'products-details',
     'footer'
 ];
 require_once 'header.php';
