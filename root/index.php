@@ -7,6 +7,7 @@ $components = [
     'order-on-request',
     'home-instruct',
     'home-blogs',
+    'collection',
     'footer'
 ];
 require_once 'header.php';

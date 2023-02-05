@@ -1,0 +1,16 @@
+.collection {
+	.content {
+		.content-images {
+			min-width: 150px;
+
+
+			a {
+				transition: all .7s;
+				&:hover {
+					filter: opacity(.5) drop-shadow( 0 0 black);
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
