@@ -9,16 +9,18 @@
 		    <?php
 		        for ($i = 0 ; $i < 8 ; $i++) {
 					?>
-			        <div class="col-sm-3 col-6 item mb-4">
-				        <!--<a href="#" class="search text-center p-2 m-2"><i class='bx bx-search'></i></a>-->
-				        <div class="card border-0">
-					        <a href="#"><img src="<?= ASSETS ?>/images/bo-hong-do-600x600.jpg" alt="flowers-banner-large-min" class="img-fluid"></a>
-					        <div class="card-body text-center">
-						        <div class="item-title">
-							        <a href="#" class="text-decoration-none">Bó hoa tặng em</a>
-						        </div>
-						        <div class="item-price">
-							        <span class="text-success">700,000đ</span>
+			        <div class="col-sm-3 col-6 mb-4">
+				        <div class="item">
+					        <a href="#" class="search text-center p-2 m-2"><i class='bx bx-search'></i></a>
+					        <div class="card border-0">
+						        <a href="#"><img src="<?= ASSETS ?>/images/bo-hong-do-600x600.jpg" alt="flowers-banner-large-min" class="img-fluid"></a>
+						        <div class="card-body text-center">
+							        <div class="item-title">
+								        <a href="#" class="text-decoration-none">Bó hoa tặng em</a>
+							        </div>
+							        <div class="item-price">
+								        <span class="text-success">700,000đ</span>
+							        </div>
 						        </div>
 					        </div>
 				        </div>
