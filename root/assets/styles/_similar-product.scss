@@ -1,0 +1,33 @@
+.similar-products {
+		.item {
+			overflow: hidden;
+			position: relative;
+			a {
+				color: black;
+			}
+			a:hover {
+				color: #454a50;
+			}
+
+			.search {
+
+				width: 50px;
+				visibility: hidden;
+				opacity: 0;
+				transition: all .3s ease-in-out;
+				position: absolute;
+				bottom: 20%;
+				right: 40%;
+				z-index: 1;
+				background: white;
+
+			}
+			&:hover {
+				.search {
+					bottom: 30%;
+					opacity: 1;
+					visibility: visible;
+				}
+			}
+		}
+}
