@@ -3,6 +3,7 @@ define('ASSETS', 'assets');
 $components = [
     'banner',
     'home-products',
+    'banner-fb',
     'home-blogs',
     'footer'
 ];
