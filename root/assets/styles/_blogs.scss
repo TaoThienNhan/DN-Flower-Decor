@@ -19,11 +19,12 @@
 				overflow: hidden;
 
 				img {
-					transition: transform 1s ease;
+					transform: scale(1.5);
+					transition: transform 1s ease-in-out;
 				}
 			}
 			.item-images:hover img {
-				transform: scale(1.5);
+				transform: scale(1);
 				filter: opacity(0.5) drop-shadow( 0 0 black);
 				background: #333333;
 			}
