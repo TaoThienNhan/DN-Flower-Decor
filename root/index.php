@@ -3,7 +3,8 @@ define('ASSETS', 'assets');
 $components = [
     'banner',
     'home-products',
-    'home-blogs'
+    'home-blogs',
+    'footer'
 ];
 require_once 'header.php';
 require_once 'functions.php';
