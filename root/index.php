@@ -1,8 +1,7 @@
 <?php
 define('ASSETS', 'assets');
 $components = [
-    'products-details',
-    'similar-product',
+    'blogs',
     'footer'
 ];
 require_once 'header.php';
